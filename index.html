@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elsa - Web Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <a href="#home"><span class="elsa">Elsa</span><span class="dotcom">.com</span></a>
+            </div>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact" class="contact-btn">Contact Me</a>
+            </nav>
+        </header>
+        <div id="home" class="main-content">
+            <div class="text-content">
+                <h1>Hello, I'm Elsa</h1> <br>
+                <h2>Web Developer</h2>
+                <p>A passionate web developer with a relentless drive for transforming ideas into not just websites, but
+                    digital experiences that captivate and resonate. In the realm of coding, I've discovered the art of
+                    crafting not just lines of code, but intricate digital landscapes that blend beauty with
+                    functionality.
+                </p>
+                <p>
+                    Let's create something remarkable together.
+                </p>
+                <div class="buttons">
+                    <a href="#contact" class="contact-btn2">Contact Me</a>
+                    <a href="https://drive.google.com/file/d/1FYWUhjKjC8RstvUuHe_T14mcbAOWw1mq/view?usp=sharing"
+                        class="download-btn">Download Resume ↓</a>
+                </div>
+            </div>
+            <div class="image-container">
+                <img src="/src/elsa.png" alt="Elsa - Web Developer" class="profile-image">
+            </div>
+        </div>
+        <div class="tags">
+            <span class="tag">Passionate</span>
+            <span class="tag">Innovative</span>
+            <span class="tag">Creative</span>
+            <span class="tag">Web Developer</span>
+            <span class="tag">Passionate</span>
+            <span class="tag">Innovative</span>
+        </div>
+        <div id="about" class="about-section">
+            <div class="about-image">
+                <img src="/src/sde.jpg" alt="About Me Image" class="about-img">
+            </div>
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>Hey there! I'm Elsa, a self-taught web developer based [your location]. My journey into the world of
+                    coding started [mention how you got into web development]. I thrive on challenges and am always
+                    eager to learn something new.</p>
+                <p>In this dynamic world of web development, I find my passion in crafting digital solutions that bring
+                    ideas to life and solve real-world problems. Eager to embrace the unknown, I'm always on the lookout
+                    for innovative ways to elevate my skills and bring fresh perspectives to every project.</p>
+            </div>
+        </div>
+        <div id="skills" class="what-i-do">
+            <h2>What I do</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <img src="/src/logos_html-5.svg" alt="HTML">
+                    <img src="/src/logos_css-3.svg" alt="CSS">
+                    <img src="/src/vscode-icons_file-type-js-official.svg" alt="JavaScript">
+                    <h3>Front-End Development</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="/src/vscode-icons_file-type-node.svg" alt="Node.js">
+                    <img src="/src/devicon_react.svg" alt="React.js">
+                    <h3>Back-End Development</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="/src/mdi_github.svg" alt="Github">
+                    <img src="/src/devicon_git.svg" alt="Git">
+                    <h3>Version Control</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="/src/logos_mysql.svg" alt="MySQL">
+                    <img src="/src/devicon_mongodb-wordmark.svg" alt="MongoDB">
+                    <h3>Database Management</h3>
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="contact-form">
+            <h2>Get in Touch</h2>
+            <form>
+                <div class="form-row">
+                    <input type="text" id="name" name="name" placeholder="First name" required>
+                    <input type="text" id="lastname" name="lastname" placeholder="Last name" required>
+                </div>
+                <div class="form-row">
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <input type="tel" id="phone" name="phone" placeholder="Phone number">
+                </div>
+                <textarea id="message" name="message" placeholder="Message" rows="4" required></textarea>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <p>Elsa.com ©️All Rights Reserved  </p>
+    </footer>
+</body>
+
+</html>
